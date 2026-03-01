@@ -1,5 +1,6 @@
-names=["Alice", "Bob", "Charlie", "David","Eve"]
-targetName=input("Who are you looking for?\n")
+names=["alice", "bob", "charlie", "david","eve"]
+
+targetName=input("Who are you looking for?\n").lower()
 
 def linear_search(names,targetName):
     r=-1
